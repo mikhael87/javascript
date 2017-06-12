@@ -1,0 +1,4 @@
+var myEl = angular.element(document.querySelectorAll('.check-unique'));
+                
+myEl.removeClass('fa fa-square-o fa-green fa-fw');
+myEl.addClass('fa fa-check-square-o fa-green fa-fw');
